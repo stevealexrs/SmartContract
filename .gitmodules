@@ -1,0 +1,5 @@
+[submodule "Multichain/Contracts/anyswap-v1-core"]
+	path = Multichain/Contracts/anyswap-v1-core
+	url = https://github.com/anyswap/anyswap-v1-core.git
+[submodule "Multichain/Contracts/multichain-smart-contracts"]
+	path = Multichain/Contracts/multichain-smart-contracts
