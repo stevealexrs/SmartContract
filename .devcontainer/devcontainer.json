@@ -3,7 +3,16 @@
 {
 	"name": "SmartContract",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"build": { "dockerfile": "Dockerfile" }
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python"
+			]
+		}
+	}
 	
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
