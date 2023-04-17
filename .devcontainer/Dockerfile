@@ -1,8 +1,8 @@
 FROM mcr.microsoft.com/devcontainers/base:debian
 
-# install npm
+# install npm, python3-pip
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
-    && apt-get -y install npm
+    && apt-get -y install npm python3-pip
 
 # install n node version management
 RUN npm install -g n
