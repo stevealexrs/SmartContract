@@ -1,8 +1,8 @@
-FROM mcr.microsoft.com/devcontainers/base:debian
+FROM mcr.microsoft.com/devcontainers/base:ubuntu
 
 # install npm, python3-pip
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
-    && apt-get -y install npm python3-pip
+    && apt-get -y install npm
 
 # install n node version management
 RUN npm install -g n
